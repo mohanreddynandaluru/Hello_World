@@ -1,15 +1,15 @@
-----------> Project Overview <-----------
-This is a basic Hello World web application built with React.
+Project Overview:
+This is a simple React web app that displays dynamic greetings and “Hello, World!” code snippets.
 
-Features:
--> Dynamic Greeting:
-Type your name in the input box — the greeting updates in real time (e.g., Hello Mohan).
+Features
+Dynamic Greeting:
+Enter your name in the input box, and the greeting updates instantly (e.g., "Hello Mohan").
 
--> Multi-language Support:
-Click “Play” to change the word "Hello" into different Indian languages like Hindi, Tamil, Telugu, etc.
+Multi-language Support:
+Click the Play button to cycle through "Hello" in different Indian languages like Hindi, Tamil, Telugu, and more.
 
--> Hello World Snippets:
-View simple “Hello, World!” programs written in popular programming languages like JavaScript, Python, C++, and more.
+Hello World Code Snippets:
+See basic "Hello, World!" programs written in popular programming languages such as JavaScript, Python, C++, and others.
 
--> Connect With Me:
-Links to my GitHub, LinkedIn, and Email are available to get in touch.
+Connect With Me:
+Easily reach out via GitHub, LinkedIn, and Email links.
