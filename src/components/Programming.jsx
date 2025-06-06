@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/Languages.css";
-import { Program } from "../utils/program";
+import { Program } from "../utils/Program";
 
 export default function Programming() {
   const [selectedLanguage, setSelectedLanguage] = useState(null);
