@@ -1,0 +1,81 @@
+const languageData = [
+  {
+    id: 1,
+    name: "English",
+    greeting: "Hello",
+    region: "Global",
+    color: "#FF9933",
+  },
+  {
+    id: 11,
+    name: "Hindi",
+    greeting: "नमस्ते",
+    region: "North India",
+    color: "#FF9933",
+  },
+  {
+    id: 2,
+    name: "Tamil",
+    greeting: "வணக்கம்",
+    region: "Tamil Nadu",
+    color: "#138808",
+  },
+  {
+    id: 3,
+    name: "Bengali",
+    greeting: "নমস্কার",
+    region: "West Bengal",
+    color: "#FF6B6B",
+  },
+  {
+    id: 4,
+    name: "Telugu",
+    greeting: "నమస్కారం",
+    region: "Andhra Pradesh & Telangana",
+    color: "#4DABF7",
+  },
+  {
+    id: 5,
+    name: "Kannada",
+    greeting: "ನಮಸ್ಕಾರ",
+    region: "Karnataka",
+    color: "#FCC419",
+  },
+  {
+    id: 6,
+    name: "Malayalam",
+    greeting: "നമസ്കാരം",
+    region: "Kerala",
+    color: "#40C057",
+  },
+  {
+    id: 7,
+    name: "Marathi",
+    greeting: "नमस्कार",
+    region: "Maharashtra",
+    color: "#7950F2",
+  },
+  {
+    id: 8,
+    name: "Gujarati",
+    greeting: "નમસ્તે",
+    region: "Gujarat",
+    color: "#FA5252",
+  },
+  {
+    id: 9,
+    name: "Punjabi",
+    greeting: "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+    region: "Punjab",
+    color: "#228BE6",
+  },
+  {
+    id: 10,
+    name: "Odia",
+    greeting: "ନମସ୍କାର",
+    region: "Odisha",
+    color: "#BE4BDB",
+  },
+];
+
+export default languageData;
