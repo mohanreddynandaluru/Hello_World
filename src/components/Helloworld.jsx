@@ -1,11 +1,54 @@
 import React, { useState } from "react";
 import "../assets/HelloWorldPage.css";
-import LanguageData from "../utils/Languagedata";
 
 export default function HelloWorldPage() {
   const [name, setName] = useState("");
   const [langIndex, setLangIndex] = useState(0);
-
+  const LanguageData = [
+    { name: "Hindi", greeting: "नमस्ते", region: "India", color: "#FF5722" },
+    {
+      name: "Tamil",
+      greeting: "வணக்கம்",
+      region: "Tamil Nadu",
+      color: "#4CAF50",
+    },
+    {
+      name: "Bengali",
+      greeting: "নমস্কার",
+      region: "West Bengal",
+      color: "#2196F3",
+    },
+    {
+      name: "Telugu",
+      greeting: "నమస్కారం",
+      region: "Andhra Pradesh",
+      color: "#FF9800",
+    },
+    {
+      name: "Kannada",
+      greeting: "ನಮಸ್ಕಾರ",
+      region: "Karnataka",
+      color: "#9C27B0",
+    },
+    {
+      name: "Malayalam",
+      greeting: "നമസ്കാരം",
+      region: "Kerala",
+      color: "#3F51B5",
+    },
+    {
+      name: "Marathi",
+      greeting: "नमस्कार",
+      region: "Maharashtra",
+      color: "#E91E63",
+    },
+    {
+      name: "Gujarati",
+      greeting: "નમસ્તે",
+      region: "Gujarat",
+      color: "#8BC34A",
+    },
+  ];
   const handlePlay = () => {
     setLangIndex((prev) => (prev + 1) % LanguageData.length);
   };
