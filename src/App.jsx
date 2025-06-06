@@ -1,7 +1,7 @@
-import Header from "./components/header";
+import Header from "./components/Headerh";
 import Helloworld from "./components/Helloworld";
 import Programming from "./components/Programming";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
