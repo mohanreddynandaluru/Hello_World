@@ -5,7 +5,7 @@ export default function HelloWorldPage() {
   const [name, setName] = useState("");
   const [langIndex, setLangIndex] = useState(0);
   const LanguageData = [
-    { name: "English", greeting: "Hello", region: "Global", color: "#FF5722" },
+    { name: "English", greeting: "Hello", region: "Global", color: "#000000" },
     { name: "Hindi", greeting: "नमस्ते", region: "India", color: "#FF5722" },
     {
       name: "Tamil",
