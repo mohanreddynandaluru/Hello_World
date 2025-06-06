@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/HelloWorldPage.css";
-import LanguageData from "../utils/LanguageData";
+import LanguageData from "../utils/Languagedata";
 
 export default function HelloWorldPage() {
   const [name, setName] = useState("");
