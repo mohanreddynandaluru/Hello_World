@@ -1,12 +1,15 @@
-# React + Vite
+----------> Project Overview <-----------
+This is a basic Hello World web application built with React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+-> Dynamic Greeting:
+Type your name in the input box — the greeting updates in real time (e.g., Hello Mohan).
 
-Currently, two official plugins are available:
+-> Multi-language Support:
+Click “Play” to change the word "Hello" into different Indian languages like Hindi, Tamil, Telugu, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> Hello World Snippets:
+View simple “Hello, World!” programs written in popular programming languages like JavaScript, Python, C++, and more.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> Connect With Me:
+Links to my GitHub, LinkedIn, and Email are available to get in touch.
