@@ -4,7 +4,7 @@ const LanguageData = [
     name: "English",
     greeting: "Hello",
     region: "Global",
-    color: "#FF9933",
+    color: "#000000",
   },
   {
     id: 11,
