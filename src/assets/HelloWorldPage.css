@@ -98,3 +98,23 @@
   font-size: 14px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 700px) {
+  .heading {
+    font-size: 4rem;
+  }
+
+  .orange-line {
+    width: 50%;
+  }
+
+  .input-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-input {
+    width: 100%;
+    max-width: 300px;
+  }
+}
