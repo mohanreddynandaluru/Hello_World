@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import "../assets/HelloWorldPage.css";
-import languageData from "../utils/Languagedata";
+import LanguageData from "../utils/LanguageData";
 
 export default function HelloWorldPage() {
   const [name, setName] = useState("");
   const [langIndex, setLangIndex] = useState(0);
 
   const handlePlay = () => {
-    setLangIndex((prev) => (prev + 1) % languageData.length);
+    setLangIndex((prev) => (prev + 1) % LanguageData.length);
   };
 
-  const currentLang = languageData[langIndex];
+  const currentLang = LanguageData[langIndex];
   const userName = name.trim() === "" ? "World" : name;
   return (
     <div className="page-container">
